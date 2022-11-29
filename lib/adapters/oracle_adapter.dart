@@ -1,5 +1,5 @@
-import 'package:adapter_pattern/adaptee/oracle.dart';
-import 'package:adapter_pattern/interfaces/database.dart';
+import '../adaptee/Oracle.dart';
+import '../interfaces/Database.dart';
 
 class OracleAdapter implements IDatabase {
   final Oracle? oracle;
