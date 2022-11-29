@@ -1,5 +1,5 @@
-import 'package:adapter_pattern/adaptee/SQLite.dart';
-import 'package:adapter_pattern/interfaces/Database.dart';
+import 'package:adapter_pattern/adaptee/sqlite.dart';
+import 'package:adapter_pattern/interfaces/database.dart';
 
 class SQLiteAdapter implements IDatabase {
   final SQLite? sqLite;

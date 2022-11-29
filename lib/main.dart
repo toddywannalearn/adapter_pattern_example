@@ -1,7 +1,7 @@
-import 'package:adapter_pattern/adaptee/Oracle.dart';
-import 'package:adapter_pattern/adaptee/SQLite.dart';
-import 'package:adapter_pattern/adapters/OracleAdapter.dart';
-import 'package:adapter_pattern/adapters/SQLiteAdapter.dart';
+import 'package:adapter_pattern/adaptee/oracle.dart';
+import 'package:adapter_pattern/adaptee/sqlite.dart';
+import 'package:adapter_pattern/adapters/oracle_adapter.dart';
+import 'package:adapter_pattern/adapters/sqlite_adapter.dart';
 
 void main(List<String> args) {
   //Calls not using the adapter
